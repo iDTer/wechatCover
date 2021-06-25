@@ -33,7 +33,7 @@ def imgURL(html):
 
 def main():
     # url = input("请粘贴要下载封面的公众号文章链接：\n")
-    url = 'https://mp.weixin.qq.com/s/EVmo_JdWihs7JFewqZWXVw'
+    url = 'https://mp.weixin.qq.com/s/VE3G4AeV0ahDJXXHKI1p8g'
     html = getHTMLText(url)
 
     img = urllib.request.urlopen(imgURL(html)).read()
